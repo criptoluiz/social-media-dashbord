@@ -27,6 +27,15 @@ body {
   margin-bottom: 2vh;
   padding-bottom: 2vh;
 }
+.container .card-container .card-blue {
+  border-top: solid 4px #1ca0f2;
+}
+.container .card-container .card-insta {
+  border-top: solid 4px #c4032a;
+}
+.container .card-container .card-youtube {
+  border-top: solid 4px #c4032a;
+}
 .container .card-container .card {
   display: flex;
   flex-direction: column;
@@ -35,17 +44,38 @@ body {
   height: 200px;
   background-color: #f0f2fa;
   margin: 3vh;
+  border-radius: 5px;
 }
 .container .card-container .card p {
   margin: 1vh;
+}
+.container .card-container .card .card-username {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #8b97c6;
+  margin-bottom: 2vh;
+}
+.container .card-container .card .card-number {
+  font-size: 3rem;
+}
+.container .card-container .card .card-followers {
+  color: #8b97c6;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .container .overview {
   margin-top: 2vh;
   display: flex;
   flex-direction: column;
 }
+.container .overview h1 {
+  color: #63687e;
+}
 .container .overview .card-overview {
   margin: 2vh 0;
+  background-color: #f0f2fa;
+  height: 15vh;
 }
 
 /*# sourceMappingURL=main.css.map */

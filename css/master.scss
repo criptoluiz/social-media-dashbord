@@ -69,6 +69,19 @@ body {
     }
 
     .card-container {
+        .card-blue {
+            border-top: solid 4px $twitter;
+        }
+
+        .card-insta {
+            border-top: solid 4px $youtube;
+
+        }
+
+        .card-youtube {
+            border-top: solid 4px $youtube;
+        }
+
         .card {
             display: flex;
             flex-direction: column;
@@ -77,9 +90,28 @@ body {
             height: 200px;
             background-color: $wLightGrayishBlueCard;
             margin: 3vh;
+            border-radius: 5px;
 
             p {
                 margin: 1vh;
+            }
+
+            .card-username {
+                font-weight: 700;
+                font-size: 0.8rem;
+                color: $ddesaturatedBlueText;
+                margin-bottom: 2vh;
+            }
+
+            .card-number{
+                font-size: 3rem;
+            }
+
+            .card-followers {
+                color: $ddesaturatedBlueText;
+                letter-spacing: 1px;
+                font-weight: 700;
+                text-transform: uppercase;
             }
         }
     }
@@ -89,9 +121,14 @@ body {
         display: flex;
         flex-direction: column;
 
+        h1 {
+            color: $wDarkGrayishBlueText;
+        }
 
         .card-overview {
             margin: 2vh 0;
+            background-color: $wLightGrayishBlueCard;
+            height: 15vh;
         }
     }
 }
